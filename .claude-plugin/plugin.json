@@ -1,0 +1,16 @@
+{
+  "name": "act-first",
+  "version": "0.1.0",
+  "description": "Turns any concept, paper, tool, or spec into the smallest thing you can actually run in the next 30 minutes — then tells you which knobs to turn and what to watch.",
+  "author": {
+    "name": "Harini",
+    "email": "harini@backyardcreators.com"
+  },
+  "keywords": [
+    "learning",
+    "simulation",
+    "research",
+    "prototyping",
+    "active-learning"
+  ]
+}

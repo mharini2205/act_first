@@ -30,13 +30,13 @@ Background is something you earn by getting stuck on something specific.
 ## Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/act-first.git ~/.claude/plugins/act-first
+git clone https://github.com/mharini2205/act-first.git ~/.claude/plugins/act-first
 ```
 
 Or from inside Claude Code:
 
 ```
-/plugin install YOUR-USERNAME/act-first
+/plugin install mharini2205/act-first
 ```
 
 Then restart Claude Code. Three commands appear: `/act`, `/unstick`, `/log`.

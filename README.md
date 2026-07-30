@@ -29,17 +29,18 @@ Background is something you earn by getting stuck on something specific.
 
 ## Install
 
-```bash
-git clone https://github.com/mharini2205/act_first.git ~/.claude/plugins/act-first
-```
-
-Or from inside Claude Code:
+This repo is a Claude Code **marketplace** (`harini-tools`) containing one
+plugin (`act-first`). Add the marketplace, then install the plugin:
 
 ```
-/plugin install mharini2205/act_first
+/plugin marketplace add mharini2205/act_first
 ```
 
-Then restart Claude Code. Three commands appear: `/act`, `/unstick`, `/log`.
+```
+/plugin install act-first@harini-tools
+```
+
+Three commands appear: `/act`, `/unstick`, `/log`.
 
 The skills also fire on their own when you describe a task that fits — you don't
 have to remember to invoke them.
@@ -131,6 +132,8 @@ the anchor before trusting anything else.
 
 ## What's inside
 
+Everything below lives under `plugins/act-first/`.
+
 | | |
 |---|---|
 | `skills/act-first/` | The main skill. Picks the executable surface, designs the probes. |
@@ -140,6 +143,8 @@ the anchor before trusting anything else.
 | `skills/learning-log/` | Captures the gap between prediction and result — the part that transfers. |
 | `agents/surface-scout.md` | Subagent that verifies entry points against your real filesystem instead of guessing paths. |
 | `commands/` | `/act`, `/unstick`, `/log` |
+
+The marketplace manifest is `.claude-plugin/marketplace.json` at the repo root.
 
 ---
 

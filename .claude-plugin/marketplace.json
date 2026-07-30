@@ -1,0 +1,32 @@
+{
+  "name": "harini-tools",
+  "description": "Harini's Claude Code plugins.",
+  "owner": {
+    "name": "Harini",
+    "email": "mharini2205@gmail.com",
+    "url": "https://github.com/mharini2205"
+  },
+  "plugins": [
+    {
+      "name": "act-first",
+      "displayName": "Act First",
+      "source": "./plugins/act-first",
+      "description": "Turns any concept, paper, tool, or spec into the smallest thing you can actually run in the next 30 minutes — then tells you which knobs to turn and what to watch.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harini",
+        "email": "mharini2205@gmail.com"
+      },
+      "homepage": "https://github.com/mharini2205/act_first",
+      "repository": "https://github.com/mharini2205/act_first",
+      "category": "productivity",
+      "tags": [
+        "learning",
+        "simulation",
+        "research",
+        "prototyping",
+        "active-learning"
+      ]
+    }
+  ]
+}

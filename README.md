@@ -19,7 +19,7 @@ can't predict what it will do.
 
 **The fast one:** install it, run the example that shipped with it, change a
 number, watch what moves. Twenty minutes later you have a wrong mental model,
-which is far more useful than no mental model — because now you have a specific
+which is far more useful than no mental model  because now you have a specific
 question, and *now* the reading pays off.
 
 This plugin makes the fast one the default. It refuses to lead with background.
